@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+    width: 1250px;
+}
+
+
+.FooterTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+    width: 1050px;
+    margin-left: 15vw;
+    border-bottom: 1px solid #E5E9E7;
+}
+
+.TopLeftFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 2VW;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 300;
+    margin-top: 4vw;
+    margin-bottom: 3VW;
+}
+
+.TopLeftFooter img {
+    width: 86.62px;
+}
+
+
+.Righty {
+    display: flex;
+    flex-direction: Row;
+    justify-content: space-between;
+    color: #586A5E;
+    ;
+}
+
+.TopMidFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 282px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+}
+
+.TopRightFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 297px;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.TopRightFooter span {
+    color: rgba(24, 136, 62, 1);
+    font-weight: 500;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    text-decoration: underline;
+}
+
+.EmailID {
+    color: rgba(24, 136, 62, 1);
+    font-weight: 500;
+}
+
+
+
+
+.FooterBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin-left: 15vw;
+    gap: 32vw;
+    padding: 2vw;
+}
+
+.FooterBottom p {
+    color: #586A5E;
+    opacity: 0.7;
+    font-size: 13px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vw;
+        width: 70vw;
+    }
+
+
+    .FooterTop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5vw;
+        width: 100vw;
+        border-bottom: 1px solid #E5E9E7;
+    }
+
+    .TopLeftFooter {
+        display: flex;
+        flex-direction: column;
+        gap: 2VW;
+        font-family: "Inter", sans-serif;
+        font-size: 3vw;
+        line-height: 18px;
+        font-weight: 300;
+        margin-top: 4vw;
+        margin-right: 5vw;
+        margin-bottom: 3VW;
+    }
+
+    .TopLeftFooter img {
+        width: 70px;
+    }
+
+
+    .Righty {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: #586A5E;
+        ;
+    }
+
+    .TopMidFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100vw;
+        font-family: "Inter", sans-serif;
+        font-size: 4vw;
+        line-height: 18px;
+        font-weight: 300;
+    }
+
+    .TopRightFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100vw;
+        font-family: "Inter", sans-serif;
+        font-size: 4vw;
+        line-height: 18px;
+        font-weight: 400;
+    }
+
+    .TopRightFooter span {
+        color: rgba(24, 136, 62, 1);
+        font-weight: 500;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        text-decoration: underline;
+    }
+
+    .EmailID {
+        color: rgba(24, 136, 62, 1);
+        font-weight: 500;
+    }
+
+
+
+
+    .FooterBottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        padding: 2vw;
+    }
+
+    .FooterBottom p {
+        color: #586A5E;
+        opacity: 0.7;
+        width: 40vw;
+        font-size: 4vw;
+    }
+
+    .FooterBottom img {
+        width: 25vw;
+        margin-right: 7vw;
+    }
+
+}

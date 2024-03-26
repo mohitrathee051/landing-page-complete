@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.first {
+    display: flex;
+    flex-direction: column;
+    height: 13vw;
+
+}
+
+.alertBox {
+    margin-left: 23vw;
+    width: 792px;
+    height: 7vw;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vh;
+    border: 2px solid #18883E4D;
+    border-radius: 10px;
+}
+
+.alertHead {
+    color: seagreen;
+    padding-top: 0vw;
+    margin-top: 2vw;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.alertContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1vw;
+    gap: 1vw;
+    margin-top: -1vw;
+    font-size: 0.9vw;
+    font-family: "Inter", sans-serif;
+}
+
+.alertContent img {
+    width: 1vw;
+    height: 1vw;
+    margin-bottom: 2.4vw;
+}
+
+.alertContent p {
+    padding-right: 0vw;
+    padding-left: 2vw;
+    margin-top: 0.5vw;
+    font-family: "Inter", sans-serif;
+}
+
+.refillcards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 588px;
+    margin-left: 10vw;
+    margin-top: -1vw;
+    height: 111px;
+}
+
+.refillhead {
+    width: 193px;
+    height: 31px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Lora", sans-serif;
+}
+
+.refillcontent {
+    padding-right: 1vw;
+    height: 48px;
+    width: 588px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #586A5E;
+    font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 600px){
+    .first {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+    
+    }
+    
+    .alertBox {
+        margin-left: 0;
+        width: 100%;
+        height: 20vh;
+        padding-left: 0.5vh;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5vh;
+        border: 2px solid #18883E4D;
+        border-radius: 10px;
+    }
+    
+    .alertHead {
+        color: seagreen;
+        padding-top: 0vw;
+        margin-top: 2vw;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .alertContent {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 1vw;
+        gap: 1vw;
+        margin-top: -1vw;
+        font-size: 1.3vh;
+        font-family: "Inter", sans-serif;
+    }
+    
+    .alertContent img {
+        width: 1vw;
+        height: 1vw;
+        margin-bottom: 2.4vw;
+    }
+    
+    .alertContent p {
+        padding-right: 0vw;
+        padding-left: 2vw;
+        margin-top: 0.5vw;
+        font-family: "Inter", sans-serif;
+    }
+    
+    .refillcards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: -1vw;
+        margin-left: -0.5vh;
+        height: 111px;
+    }
+    
+    .refillhead {
+        width: 90%;
+        height: 5vh;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: "Lora", sans-serif;
+    }
+    
+    .refillcontent {
+        padding-right: 1vw;
+        height: 10vh;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        color: #586A5E;
+        font-family: "Inter", sans-serif;
+    }
+}

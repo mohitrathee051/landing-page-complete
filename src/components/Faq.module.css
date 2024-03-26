@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.FAQsec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+
+}
+
+
+.FAQsec p {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 2.5vh;
+    margin-top: 1.5vw;
+}
+
+
+.FaqHead {
+    width: 30vw;
+    font-family: "Lora", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 5vw;
+    margin-top: 5vw;
+}
+
+.FaqHead h3 {
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.line {
+    width: 24px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #18883E;
+
+}
+
+.FaqHead p {
+    font-size: 1vw;
+    font-weight: 400;
+    color: #586A5E;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.Faq1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vw;
+    width: 51vw;
+    border-bottom: 1px solid #E5E9E7;
+}
+
+.Faq1 p {
+    font-size: 2.5vh;
+    color: #586A5E;
+    font-weight: 400;
+    padding-left: 0.5vw;
+
+    font-family: "Inter", sans-serif;
+}
+
+.Quess1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 51vw;
+
+}
+
+.Quess1 p {
+    font-weight: 600;
+    color: black;
+}
+
+.Question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+}
+
+.Question img {
+    width: 22px;
+    height: 22px;
+}
+
+.FaqItem {
+    border-bottom: 1px solid #E5E9E7;
+}
+
+.Answer p {
+    width: 750px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #586A5E;
+}
+
+@media screen and (max-width: 600px) {
+    .FAQsec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+        width: 90%;
+
+    }
+
+
+    .FAQsec p {
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        width: 90%;
+
+        font-size: 4.5vw;
+        margin-top: 1.5vw;
+    }
+
+
+    .FaqHead {
+        width: 100%;
+        font-family: "Lora", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding-top: 5vw;
+        margin-top: 5vw;
+    }
+
+    .FaqHead h3 {
+        font-size: 4vh;
+        margin-left: 8vw;
+        width: 100%;
+        font-weight: 700;
+    }
+
+    .line {
+        width: 30vw;
+        margin-bottom: 5vw;
+        height: 2px;
+        border-radius: 5px;
+        background-color: #18883E;
+
+    }
+
+    .FaqHead p {
+        font-size: 4vw;
+        width: 100%;
+        font-weight: 400;
+        color: #586A5E;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .Faq1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2vw;
+        width: 100%;
+        border-bottom: 1px solid #E5E9E7;
+    }
+
+    .Faq1 p {
+        font-size: 2.5vh;
+        color: #586A5E;
+        font-weight: 400;
+        padding-left: 0.5vw;
+
+        font-family: "Inter", sans-serif;
+    }
+
+    .Quess1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .Quess1 p {
+        font-weight: 600;
+        color: black;
+    }
+
+    .Question {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15vw;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Question img {
+        width: 3vh;
+        margin-top: -5vw;
+    }
+
+    .FaqItem {
+        border-bottom: 1px solid #E5E9E7;
+    }
+
+    .Answer p {
+        width: 100%;
+        font-size: 4vw;
+        font-weight: 400;
+        color: #586A5E;
+    }
+}

@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.FullForm {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #586A5E;
+}
+
+.FullForm input {
+    border: 1px solid #E5E9E7;
+    padding-left: 1.5vw;
+    height: 3.5vw;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.leftForm {
+    margin-right: -5vw;
+    width: 486px;
+    height: 1223px;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.Shipping {
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #1D3325;
+}
+
+.Name {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    align-items: center;
+    font-size: 13px;
+    color: #586A5E;
+}
+
+.stateZip {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.ExpDate {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+
+
+
+
+.businessname input {
+    width: 34vw;
+}
+
+.Adress input {
+    width: 34vw;
+}
+
+.AddSecondLine {
+    color: green;
+    text-decoration: underline;
+}
+
+.Email input {
+    width: 34vw;
+}
+
+.PhoneNo input {
+    width: 34vw;
+}
+
+.cardno input {
+    width: 34vw;
+}
+
+
+
+.rightForm {
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: 1223px;
+    gap: 1.6vw;
+    margin-left: -5vw;
+
+}
+
+.rightForm input {
+    height: 1.2vw;
+    width: 1.2vw;
+}
+
+.rightForm button {
+    background: linear-gradient(to right bottom, #168A3E, #2BCE8A);
+    border: none;
+    color: white;
+    border-radius: 30px;
+    height: 4vw;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.paymentlabelswrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: flex-start;
+}
+
+.paymentp {
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.paymentline {
+    background-color: #E5E9E7;
+    height: 1px;
+    width: 80%;
+}
+
+.label1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.label1 input {
+    width: 1.2vw;
+    height: 1.2vw;
+    accent-color: #18883E;
+
+}
+
+.label2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.label2 input {
+    width: 1.2vw;
+    height: 1.2vw;
+    accent-color: #18883E;
+}
+
+.radiowrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    margin-left: -4vw;
+
+}
+
+
+.monthplan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 13vw;
+    margin-left: 2.5vw;
+}
+
+.monthplan input {
+    width: 1.2vw;
+    height: 1.2vw;
+    accent-color: #18883E;
+
+}
+
+.annualplan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13vw;
+    margin-left: 2.5vw;
+    justify-content: space-around;
+}
+
+.annualplan input {
+    width: 1.2vw;
+    height: 1.2vw;
+    accent-color: #18883E;
+
+}
+
+
+
+.valuescsswrapper {
+    color: #586A5E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cuthrough {
+    text-decoration: line-through;
+    margin-right: 1vw;
+    color: #586A5E;
+    font-weight: 400;
+}
+
+.ordersummarypara {
+    font-size: 16px;
+    color: #1D3325;
+    font-weight: 700;
+
+}
+
+.discount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10vw;
+    border-top: 1px solid #E5E9E7;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border-bottom: 1px solid #E5E9E7;
+}
+
+.shippingmethod {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1vw;
+    border-bottom: 0.5px solid #E5E9E7;
+}
+
+.shippingfee {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1vw;
+    justify-content: space-between;
+    gap: 1vw;
+    border-bottom: 0.5px solid #E5E9E7;
+}
+
+.totalpayment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #E5E9E7;
+    margin-bottom: 2vw;
+    padding-bottom: 1vw;
+}
+
+.moneyback {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1D3325;
+}
+
+.buttonknicheline {
+    margin-left: 2vw;
+}
+
+.termsandconditions {
+    color: #168A3E;
+    margin-left: 0.3vw;
+    text-decoration: underline;
+    margin-right: 0.3vw;
+}
