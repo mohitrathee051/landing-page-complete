@@ -67,7 +67,7 @@
         display: flex;
         flex-direction: column;
         width: 100vw;
-        gap: 1vw;
+        gap: 0;
         align-items: flex-start;
         justify-content: center;
         margin-left: 0;
@@ -80,16 +80,20 @@
         font-weight: 700;
         font-family: "Lora", sans-serif;
     }
+    .p1more{
+        margin-top: -1.5rem;
+    }
 
     .leftpage1 {
         padding-top: 3vw;
-        padding-left: 10vw;
+        margin-left: 10%;
         padding-bottom: 3vw;
     }
 
     .midpage1 {
         position: relative;
         width: 35%;
+        margin-left: -1%;
     }
 
     .bgimagee img {
@@ -97,19 +101,21 @@
         top: 0;
         left: 0;
         width: 85vw;
-        height: 80vw;
+        height: 75vw;
         z-index: 1;
     }
 
     .topimagee img {
         position: absolute;
-        width: 45vw;
+        width: 43vw;
         margin-top: -19.5vh;
         margin-left: 13vh;
         z-index: 2;
     }
 
-
+    .rightpage1{
+        margin-left: 5%;
+    }
     .rightpage1 p {
         font-size: 30px;
         font-weight: 700;
@@ -118,6 +124,7 @@
 
     .stayfoot {
         color: #18883E;
+        margin-top: -1.7rem;
     }
     
 }

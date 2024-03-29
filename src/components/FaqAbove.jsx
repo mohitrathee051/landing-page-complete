@@ -12,7 +12,7 @@ function FaqAbove() {
 
     const next = () => {
         sliderRef.current.slickNext(); // Access slickNext via sliderRef.current
-    };
+    }; 
 
     const previous = () => {
         sliderRef.current.slickPrev(); // Access slickPrev via sliderRef.current
@@ -29,6 +29,14 @@ function FaqAbove() {
     };
     return (
         <>
+            <div className={styles.extraimage}>
+                            <div className={styles.topimgabove}>
+                                <img src={faqaboveimg} alt="" />
+                            </div>
+                            <div className={styles.bgimgabove}>
+                                <img src={faqabovebg} alt="" />
+                            </div>
+            </div>
             <Slider {...settings} ref={sliderRef}>
                 <div>
                     <div className={styles.Faqabove}>

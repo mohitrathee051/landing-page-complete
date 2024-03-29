@@ -10,7 +10,7 @@ function Page1End() {
         <div className={styles.page1foot}>
             <div className={styles.leftpage1}>
                 <p>Keep getting</p>
-                <p>more reviews</p>
+                <p className={styles.p1more}>more reviews</p>
             </div>
             <div className={styles.midpage1}>
                 <div className={styles.bgimagee}>

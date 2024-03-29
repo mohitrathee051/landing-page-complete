@@ -10,7 +10,7 @@ import icon7 from '../assets/icon7.png'
 import icon8 from '../assets/icon8.png'
 import styles from './BelowImg.module.css';
 
-
+ 
 function Belowimg() {
     return (
         <div className={styles.bottomimgpage1}>
@@ -64,7 +64,7 @@ function Belowimg() {
                 </div>
             </div>
             <div className={styles.endlinepage1}>
-                <p>Still have questions? Call us at 800 - 845 - 8928</p>
+                <p>Still have questions? Call us at <span class={styles.numberspan}>800-845-8928</span></p>
             </div>
         </div>
     )

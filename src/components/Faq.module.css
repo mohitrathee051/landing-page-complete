@@ -116,7 +116,7 @@
         justify-content: center;
         align-items: center;
         gap: 1vw;
-        width: 90%;
+        width: 100%;
 
     }
 
@@ -124,8 +124,7 @@
     .FAQsec p {
         font-family: "Inter", sans-serif;
         font-weight: 600;
-        width: 90%;
-
+        width: 100%;
         font-size: 4.5vw;
         margin-top: 1.5vw;
     }
@@ -183,7 +182,6 @@
         color: #586A5E;
         font-weight: 400;
         padding-left: 0.5vw;
-
         font-family: "Inter", sans-serif;
     }
 
@@ -205,10 +203,11 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap: 15vw;
         align-items: center;
         width: 100%;
+        gap: 6rem;
     }
+
 
     .Question img {
         width: 3vh;
